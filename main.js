@@ -1,4 +1,4 @@
-alert ("BIENVENIDOS A TISIO JOYERIAS")
+alert ("¡BIENVENIDO A TISIO JOYERIAS!")
 
 const nombre = prompt ("Para acceder a la tienda, ingresar tu nombre");
 
