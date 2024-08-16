@@ -1,0 +1,85 @@
+body{
+    background-color: #FEF6F4
+}
+
+h1{
+    font-size: 40px;
+}
+
+
+.tituloPrincipal{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: #131C3A;
+}
+
+.linea{
+    background-color: #131C3A;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    row-gap: 3rem;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+
+button{
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height: 40px;
+    background-color: #131C3A;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.precio{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.boton-agregar{
+    font-size: 15px;
+    border-radius: 60px;
+    width: 250px;
+}
+
+.mostrarCarrito{
+    border-radius: 20px;
+}
+
+.card{
+    border: 2px solid #ffffff9f;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(135, 135, 135, 0.458);
+    background-color: #fff;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+
+.img {
+    width: 300px;
+    height: 300px;
+}
+
